@@ -1,7 +1,12 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-
+.hidemobile {
+	display:block;
+}
+@media screen and (max-width: 768px) {
+.hidemobile {display: none;}
+}
 /*
 	Hielo by TEMPLATED
 	templated.co @templatedco
